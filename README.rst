@@ -7,7 +7,7 @@ Shparkley: Scaling Shapley Values with Spark
 
 Shparkley is a PySpark implementation of
 `Shapley values <https://papers.nips.cc/paper/7062-a-unified-approach-to-interpreting-model-predictions.pdf>`_
-which uses a `monte-carlo approximation <https://link.springer.com/article/10.1007/s10115-013-0679-x>`_ algorithm.
+which uses a `monte-carlo approximation <https://link.springer.com/article/10.1007/s10115-013-0679-x>`_ algorithm. Shparkley implementation is based on `An Efficient Explanation of Individual Classifications using Game Theory <http://www.jmlr.org/papers/volume11/strumbelj10a/strumbelj10a.pdf>`_ algorithm.
 
 Given a dataset and machine learning model, Shparkley can compute Shapley values for all features for a feature vector.
 Shparkley also handles training weights and is model agnostic.
